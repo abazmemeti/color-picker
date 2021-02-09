@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Picker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="color-picker">
+  <h1 style="text-align: center; margin-bottom: 1em">Color Picker</h1>
+  <div id="display">
+    <p id="text"> 
+      <span id="dec">rgb(12,115,184)</span>
+      <span id="hex">#0C73B8</span>
+    </p>
+  </div>
+  <div id="inputet">
+    <div class="ngjyra">
+      <input type="range" id="red" name="red" min="0" step="1" max="255" value="12">
+      <div class="txt-ngjyra">Red: <span id="txt-red">12</span> </div>
+      <div class="txt-ngjyra">Hex: <span id="hex-red">0C</span> </div>
+    </div>
+    <div class="ngjyra">
+      <input type="range" id="green" name="green" min="0" step="1" max="255" value="115">
+      <div class="txt-ngjyra">Green: <span id="txt-green">115</span> </div>
+      <div class="txt-ngjyra">Hex: <span id="hex-green">73</span> </div>
+    </div>
+    <div class="ngjyra">
+      <input type="range" id="blue" name="blue" min="0" step="1" max="255" value="184">
+      <div class="txt-ngjyra">Blue: <span id="txt-blue">184</span> </div>
+      <div class="txt-ngjyra">Hex: <span id="hex-blue">B8</span> </div>
+    </div>
+  </div>
+</div>
+<footer>Created by <a href="https://amemeti.netlify.app/cv/" target="_blank">Abaz Memeti</a></footer>
+<script src="script.js"></script>
+</body>
+</html>
